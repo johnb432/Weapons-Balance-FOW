@@ -1,117 +1,164 @@
 class CfgMagazineWells {
+    class CBA_12g_5rnds {
+        WB_Magazines[] += {
+            "fow_5Rnd_12G_Pellets",
+            "fow_5Rnd_12G_Slug"
+        };
+    };
+
+    class CBA_12g_6rnds {
+        WB_Magazines[] += {
+            "fow_6Rnd_12G_Pellets",
+            "fow_6Rnd_12G_Slug"
+        };
+    };
+
     class CBA_3006_Spring {
-        WW2FixFOW[] = {
+        WB_Magazines[] += {
             "fow_5Rnd_762x63"
         };
     };
 
     class CBA_3006_BAR {
-        WW2FixFOW[] = {
+        WB_Magazines[] += {
             "fow_20Rnd_762x63"
         };
     };
 
     class CBA_3006_Belt {
-        WW2FixFOW[] = {
+        WB_Magazines[] += {
             "fow_30Rnd_762x63",
-            "fow_50Rnd_762x63"
+            "fow_50Rnd_762x63",
+            "fow_100Rnd_762x63"
         };
     };
 
     class CBA_3006_Garand {
-        WW2FixFOW[] = {
-            "fow_8Rnd_762x63"
-        };
-    };
-
-    class CBA_30Carbine_M1Carbine {
-        WW2FixFOW[] = {
-            "fow_15Rnd_762x33"
+        WB_Magazines[] += {
+            "fow_8Rnd_762x63",
+            "fow_8Rnd_762x63_T"
         };
     };
 
     class CBA_303B_BREN {
-        WW2FixFOW[] = {
+        WB_Magazines[] += {
             "fow_30Rnd_303_bren"
         };
     };
 
     class CBA_303B_LeeEn {
-        WW2FixFOW[] = {
+        WB_Magazines[] += {
             "fow_10Rnd_303"
         };
     };
 
-    class CBA_45ACP_Thompson_Stick {
-        WW2FixFOW[] = {
-            "fow_30Rnd_45acp",
-            "fow_30Rnd_45acp_T",
+    class CBA_30Carbine_M1Carbine {
+        WB_Magazines[] += {
+            "fow_15Rnd_762x33"
         };
     };
 
     class CBA_45ACP_Grease {
-        WW2FixFOW[] = {
+        WB_Magazines[] += {
             "fow_30Rnd_45acp",
             "fow_30Rnd_45acp_T"
         };
     };
 
+    class CBA_45ACP_Thompson_Drum {
+        WB_Magazines[] += {
+            "fow_50Rnd_45acp",
+            "fow_50Rnd_45acp_T",
+        };
+    };
+
+    class CBA_45ACP_Thompson_Stick {
+        WB_Magazines[] += {
+            "fow_30Rnd_45acp",
+            "fow_30Rnd_45acp_T",
+        };
+    };
+
     class CBA_45ACP_Reising {
-        WW2FixFOW[] = {
+        WB_Magazines[] += {
             "fow_20Rnd_45acp"
         };
     };
+
     class CBA_77x58_Arisaka {
-        WW2FixFOW[] = {
+        WB_Magazines[] += {
             "fow_5Rnd_77x58"
         };
     };
 
     class CBA_77x58_Type99 {
-        WW2FixFOW[] = {
+        WB_Magazines[] += {
             "fow_30Rnd_77x58"
         };
     };
+
     class CBA_792x33_StG {
-        WW2FixFOW[] = {
+        WB_Magazines[] += {
             "fow_30Rnd_792x33"
         };
     };
 
+    class CBA_792x57_FG42 {
+        WB_Magazines[] += {
+            "fow_20Rnd_792x57"
+        };
+    };
+
     class CBA_792x57_G43 {
-        WW2FixFOW[] = {
+        WB_Magazines[] += {
             "fow_10nd_792x57"
         };
     };
 
     class CBA_792x57_K98 {
-        WW2FixFOW[] = {
+        WB_Magazines[] += {
             "fow_5Rnd_792x57"
         };
     };
 
     class CBA_792x57_LINKS {
-        WW2FixFOW[] = {
+        WB_Magazines[] += {
             "fow_50Rnd_792x57"
         };
     };
 
+    class CBA_8x22_Type100 {
+        WB_Magazines[] += {
+            "fow_32Rnd_8x22"
+        };
+    };
+
+    class CBA_9x19_MAB38 {
+        WB_Magazines[] += {
+            "fow_30Rnd_9x19_mab"
+        };
+    };
+
     class CBA_9x19_MP40 {
-        WW2FixFOW[] = {
-            "fow_32Rnd_9x19_mp40",
-            "fow_32Rnd_9x19_sten"
+        WB_Magazines[] += {
+            "fow_32Rnd_9x19_mp40"
+        };
+    };
+
+    class CBA_9x19_Owen {
+        WB_Magazines[] += {
+            "fow_33Rnd_9x19_owen"
         };
     };
 
     class CBA_9x19_STEN {
-        WW2FixFOW[] = {
-            "fow_32Rnd_9x19_mp40",
+        WB_Magazines[] += {
             "fow_32Rnd_9x19_sten"
         };
     };
 
     class CBA_PIAT {
-        WW2FixFOW[] = {
+        WB_Magazines[] += {
             "fow_1Rnd_piat_HE",
             "fow_1Rnd_piat_HEAT"
         };

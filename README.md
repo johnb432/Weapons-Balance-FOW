@@ -1,174 +1,168 @@
-# Changelog for Weapons balance 05.12.2020
+# Changelog for Weapons balance 31.12.2020
+
+- Added ACE barrel and ACE ammo stats
+- Renamed magazines to accurately fit their content
 
 - Weapon changes:
-    - Vanilla:
-        - RPG-7:
-            - Changed weight from 3.63kg to 5.44kg
+    - FOW:
+        - Changed names to fit better
+        - Removed config that makes weapons reload when selecting in arsenal
 
-- MagazineWells:
-    - CBA:
-        - .338LM AI:
-            - Added 1x Vanilla 10Rnd mag
-
-- Vehicles:
-    - Vanilla:
-        - Tracked APCs:
-            - Added intercom channels. **This affects other vehicles from other mods**
-        - Merkava:
-            - Added intercom channels
-
-# Changelog for Weapons balance 05.12.2020
-
-- Unhid multiple faces (mostly from basegame campaign) (Credit to Blutze)
-- Weapon changes:
-    - Vanilla:
-        - QBZ-95-1 LSW variants:
-           - Changed squad icon on DUI to AR type
-
-- Backpack changes:
-    - Vanilla:
-        - Effort to balance all radio backpacks, messenger bags and tactical packs to fit their counterparts from basegame/other mods
-
-# Changelog for Weapons balance 23.8.2020
-
-- Tweaked Vanilla MAAWS HEAT rounds - need testing
-
-- Weapon changes:
-    - Vanilla:
-        - AK-15 GLs:
-            - Changed weight from 4.76kg to 4.99kg
-        - FN Minimi SPW:
-            - Changed weight from 6.85kg to 8.00kg
-        - HK416A5 11"s:
-            - Changed weight from 3.36kg to 3.12kg
-        - HK416A5 11" GLs:
-            - Changed weight from 4.79kg to 4.62kg
-        - HK416A5 14.5"s:
-            - Changed weight from 3.54kg to 3.49kg
-        - HK417A2 20"s:
-            - Changed weight from 4.22kg to 4.74kg
-        - MP5K:
-            - Changed weight from 1.81kg to 2.54kg
-        - P90:
-            - Changed weight from 1.81kg to 2.60kg
-        - PS90:
-            - Changed weight from 1.81kg to 2.85kg
-        - RPKs:
-            - Changed names to "RPKM"
-            - Changed icon for DUI to MG
-        - VS-121:
-            - Removed full auto firing mode
-        - RPG-7:
-            - Changed weight from 3.63kg to 6.35kg
-
-- MagazineWells:
-    - CBA:
-         - 12 Gauge, 8 Rnds:
-             - Added 2x Vanilla/custom rounds
-         - 7.62x39 AK:
-             - Added 6x Vanilla 30Rnd mags
-         - 7.62x39 RPK:
-             - Added 8x Vanilla 75Rnd mags
-         - 9x18 Makarov:
-             - Added Vanilla 10Rnd mag
-         - 9x19 MP443:
-             - Added 4x 16Rnd Vanilla mags
-
-- Weight balancing:
-    - Vanilla:
-        - 10Rnd 7.62x54R from 0.36kg to 0.23kg
-        - All (8x) 30Rnd 5.56x45mm STANAG mags from 0.36kg to 0.42kg
-        - All (4x) 30Rnd 5.45x39mm AK mags from 0.36kg to 0.41kg
-        - All (10x) 30Rnd 7.62x39mm AK mags from 0.45kg to 0.61kg
-        - All (8x) 75Rnd 7.62x39 AK drum mags from 1.18kg to 1.53kg
-        - All (4x) 200Rnd 5.56x45 belts from 1.81kg to 2.34kg
-
-- Models/Icons/Names:
-    - Vanilla:
-        - Changed count of bullets of 16Rnd 9x21mm mag from 17 to 16
-
-# Changelog for Weapons balance 29.7.2020
-
-- Weapon changes:
-    - Vanilla:
-        - FN Minimi SPW:
-            - Added swappable barrel
-            - Changed weight from 11.79kg to 6.85kg
-        - AK-15s:
-            - Changed weight from 6.35kg to 3.49kg
-        - AK-15 GLs:
-            - Changed weight from 7.26kg to 4.76kg
-        - AK-15Ks:
-            - Changed weight from 4.99kg to 3.25kg
-        - RPKs:
-            - Changed weight from 7.71kg to 4.99kg
-        - MSBS Grots:
-            - Changed weight from 4.08kg to 3.63kg
-        - MSBS Grot GLs:
-            - Changed weight from 5.22kg to 4.79kg
-        - MSBS Grot MRs:
-            - Changed weight from 4.99kg to 4.13kg
-        - MSBS Grot SGs:
-            - Changed weight from 5.44kg to 4.99kg
-        - M14 (classic):
-            - Changed weight from 6.35kg to 4.17kg
-        - QBU-88s:
-            - Changed weight from 5.44kg to 4.08kg
-        - AKM:
-            - Changed weight from 5.44kg to 3.13kg
-        - AKS-74U:
-            - Changed weight from 3.63kg to 2.70kg
-        - HK416A5 11"s:
-            - Changed weight from 4.08kg to 3.36kg
-        - HK416A5 11" GLs:
-            - Changed weight from 4.99kg to 4.79kg
-        - HK416A5 14.5"s:
-            - Changed weight from 4.99kg to 3.54kg
-        - HK417A2 20"s:
-            - Changed weight from 7.26kg to 4.22kg
-        - QBZ-95-1s:
-            - Changed weight from 3.63kg to 3.27kg
-        - QBZ-95-1 LSWs:
+        - Bren Mk.II:
+            - Added ACE swappable barrel
+            - Added CBA magwell for Bren mags
+            - Changed weight from 4.54kg to 10.35kg
+        - FG 42:
+            - Added CBA magwell for FG 42 mags
+            - Changed weight from 0.00kg to 4.22kg
+        - G43:
+            - Added CBA magwell for G43 mags & 7.92x57 clips
+            - Changed weight from 4.54kg to 4.40kg
+        - Ithaca 37:
+            - Added CBA magwell for 12 Gauge 1-5Rnds
+            - Changed weight from 4.54kg to 3.09kg
+        - Kar98k:
+            - Added CBA magwell for 7.92x57 clips
             - Changed weight from 4.54kg to 3.90kg
-        - Type 115s:
-            - Changed weight from 6.35kg to 4.99kg
-        - Kozlice 12G
-            - Changed weight from 4.99kg to 3.63kg
+        - Kar98k ZF41:
+            - Added CBA magwell for 7.92x57 clips
+            - Changed weight from 4.54kg to 4.13kg
+        - Lee Enfield No.4:
+            - Added CBA magwell for .303 Lee-Enfield clips
+            - Changed weight from 4.54kg to 4.19kg
+        - Lee Enfield No.5:
+            - Added CBA magwell for .303 Lee-Enfield clips
+            - Changed weight from 4.54kg to 3.26kg
+        - M1 Carbine:
+            - Added CBA magwell for M1 Carbine mags
+            - Changed weight from 4.54kg to 2.36kg
+        - M1 Garand variants:
+            - Added CBA magwell for M1 Garand clips
+            - Changed weight from 4.54kg to 4.30kg
+        - M1903A1:
+            - Added CBA magwell for M1903A1 clips
+            - Changed weight from 4.54kg to 3.99kg
+        - M1903A1 (Sniper):
+            - Added CBA magwell for M1903A1 clips
+            - Changed weight from kg to 4.22kg
+        - M1918A2s:
+            - Added CBA magwell for .30-06 BAR
+        - M1919A4:
+            - Added ACE swappable barrel
+            - Added CBA magwell for .30-06 belts
+            - Changed weight from 4.54kg to 14.06kg
+        - M1919A6:
+            - Added ACE swappable barrel
+            - Added CBA magwell for .30-06 belts
+            - Changed weight from 4.54kg to 15.00kg
+        - M1A1 Thompson:
+            - Added CBA magwell for Thompson sticks
+        - M3 Grease Gun:
+            - Added CBA magwell for M3 mags
+            - Changed weight from 4.54kg to 3.70kg
+        - M55 Reising:
+            - Added CBA magwell for M55 mags
+            - Changed weight from 4.54kg to 2.81kg
+        - MG 34:
+            - Added ACE swappable barrel
+            - Added CBA magwell for MG42 belts
+            - Changed weight from 4.54kg to 12.00kg
+        - MG 42:
+            - Added ACE swappable barrel
+            - Added CBA magwell for MG42 belts
+            - Changed weight from 4.54kg to 11.54kg
+        - MP 40:
+            - Added CBA magwell for MP 40 mags
+            - Changed weight from 4.54kg to 3.97kg
+        - PIAT:
+            - Added CBA magwell for PIAT rounds
+            - Changed weight from 4.54kg to 14.52kg
+        - Stens:
+            - Added CBA magwell for Sten mags
+            - Changed weight from 4.54kg to 3.20kg
+        - StG 44:
+            - Added CBA magwell for StG 44 mags
+            - Changed weight from 4.54kg to 4.59kg
+        - Type 100:
+            - Added CBA magwell for Type 100
+            - Changed weight from 4.54kg to 3.86kg
+        - Type 99 Arisaka:
+            - Added CBA magwell for Arisaka clips
+            - Changed weight from 4.54kg to 3.79kg
+        - Type 99 Arisaka (Sniper):
+            - Added CBA magwell for Arisaka clips
+            - Changed weight from 4.54kg to 4.02kg
+        - Type 99 LMG:
+            - Added ACE swappable barrel
+            - Added CBA magwell for Type99 LMG mags
+            - Changed weight from 4.54kg to 13.56kg
+        - Winchester M1912:
+            - Added CBA magwell for 12 Gauge 1-6Rnds
+            - Changed weight from 0.00kg to 3.42kg
 
 - MagazineWells:
     - CBA:
-        - 12 Gauge, 2 Rnds:
-            - Added 2x Vanilla 2Rnd
+        - 12 Gauge, 5 Rnds:
+            - Added 2x FOW 2Rnd
         - 12 Gauge, 6 Rnds:
-            - Added 2x Vanilla 6Rnd
-        - 5.56x45 Stanag:
-            - Added 7x Vanilla 30Rnd sand mags
-        - 5.56x45 XL Stanag:
-            - Added 4x Vanilla 150Rnd drum mags
-        - 7.62x51 M14:
-            - Added Vanilla 10Rnd mag
-            - Added Vanilla 20Rnd mag
-        - 7.62x51 SR25:
-            - Added Vanilla 7.62x51 20Rnd mag
-        - 7.62x54R Links:
-            - Added 2x Vanilla 150Rnd belts
-    - Vanilla:
-        - 7.62x51 M240:
-            - Added 2x Vanilla 150Rnd belts
-        - 7.62x54R Links:
-            - Added 2x Vanilla 150Rnd belts
-        - 5.56x45 Stanag:
-            - Added 7x Vanilla sand mags
+            - Added 2x FOW 6Rnd
+        - .30-06 Springfield:
+            - Added 1x FOW 5Rnd clip
+        - .30-06 BAR:
+            - Added 1x FOW 20Rnd mag
+        - .30-06 Belt:
+            - Added 1x FOW 30Rnd belt
+            - Added 1x FOW 50Rnd belt
+            - Added 1x FOW 100Rnd belt
+        - .30-06 Garand:
+            - Added 2x FOW 8Rnd clips
+        - .303 Bren:
+            - Added 1x FOW 30Rnd mag
+        - .303 Lee-Enfield:
+            - Added 1x FOW 10Rnd clip
+        - 30 Carbine:
+            - Added 1x FOW 15Rnd mag
+        - .45 ACP M3:
+            - Added 2x FOW 30Rnd mags
+        - .45 ACP Thompson Drum:
+            - Added 2x FOW 50Rnd mags
+        - .45 ACP Thompson Stick:
+            - Added 2x FOW 30Rnd mags
+        - .45 ACP Reising:
+            - Added 1x FOW 20Rnd mag
+        - 7.7x58 arisaka:
+            - Added 1x FOW 5Rnd clip
+        - 7.7x58 Type 99:
+            - Added 1x FOW 30Rnd mag
+        - 7.92x33 StG:
+            - Added 1x FOW 30Rnd mag
+        - 7.92x57 FG42:
+            - Added 1x FOW 20Rnd mag
+        - 7.92x57 G43:
+            - Added 1x FOW 10Rnd mag
+        - 7.92x57 K98:
+            - Added 1x FOW 5Rnd clip
+        - 7.92x57 MG42 belts:
+            - Added 1x FOW 50Rnd belt
+        - 8x22 Type 100:
+            - Added 1x FOW 30Rnd mag
+        - 9x19 MAB 38:
+            - Added 1x FOW 30Rnd mag
+        - 9x19 MP40:
+            - Added 1x FOW 32Rnd mag
+        - 9x19 Owen:
+            - Added 1x FOW 33Rnd mag
+        - 9x19 Sten:
+            - Added 1x FOW 32Rnd mag
+        - PIAT:
+            - Added 2x FOW rounds
 
 - Weight balancing:
-    - Vanilla:
-        - Both 2Rnd 12 Gauge shotgun shells from 0.27kg to 0.10kg
-        - Both 6Rnd 12 Gauge shotgun shells from 0.54kg to 0.30kg
-        - All (6x) 150 Rnd Vanilla 5.56 drum mag from 1.36kg to 1.91kg
+    - FOW:
+        - 1x 30Rnd .30-06 M1919 belt from 0.36kg to 0.59kg
+        - 1x 50Rnd 7.92x57mm MG42 belt from kg to 1.41kg
+        - The magazines/ammo were balanced with real world weight data:
+        The mass is the sum of the amount of rounds of a type and the magazine.
+        Magazine weights were fabricated, as they would otherwise be too heavy.
 
-- Models/Icons/Names:
-    - Vanilla:
-        - Changed descriptions and names of 25Rnd .45ACP mags
-        - Changed names of AK12 mags to AK-15 mags
-        - Changed names of Promet mags to MSBS mags
-        - Changed names of all MX Khaki weapons (removed the "6.5 mm" in the name)
+        https://www.thefirearmblog.com/blog/2016/04/09/how-much-does-your-ammunition-weigh/
