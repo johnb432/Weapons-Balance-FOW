@@ -4,6 +4,7 @@ class fow_20Rnd_762x63: CA_Magazine {
 };
 
 class fow_30Rnd_762x63: CA_Magazine {
+    ACE_isBelt = 1;
     displayName = "30Rnd .30-06 M1919 Belt";
     //_MASS(AMMO3006,30,RND30BELTMG);
     mass = 13;
@@ -28,6 +29,7 @@ class fow_30Rnd_77x58: CA_Magazine {
 };
 
 class fow_50Rnd_792x57: CA_Magazine {
+    ACE_isBelt = 1;
     displayName = "50Rnd 7.92x57mm MG Drum";
     //_MASS(AMMO792X57,50,RND50BELTMG);
     mass = 31;

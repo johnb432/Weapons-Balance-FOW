@@ -12,7 +12,7 @@ class fow_w_m1_thompson: fow_w_m1a1_thompson {
 class fow_w_m3: fow_rifle_base {
     ACE_barrelLength = 203.2;
     ACE_barrelTwist = 406;
-    displayName = "M3 Grease Gun";
+    displayName = "M3";
     magazineWell[] += {"CBA_45ACP_Grease"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 81.5;

@@ -12,7 +12,7 @@ class fow_w_k98: fow_rifleBolt_base {
     };
 };
 class fow_w_k98_scoped: fow_w_k98 {
-    displayName = "K98k ZF41";
+    displayName = "K98k (Optic)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 91;
     };
