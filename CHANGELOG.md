@@ -1,3 +1,27 @@
+# Changelog for Weapons balance 20.2.2022
+
+1.1.0.1
+- Weapon changes:
+    - FOW: 
+        - M1 Garand variants:
+            - Removed modern 40mm grenades
+            - Added CBA magwell for 22mm rifle grenades
+        - Type 99 variants:
+            - Removed modern 40mm grenades
+            - Added CBA magwell for 30mm rifle grenades
+        - M1A1 Bazooka:
+            - Added CBA magwell for 60mm Bazooka rounds
+            - Changed weight from 5.44kg to 5.78kg
+            
+- MagazineWells:
+    - CBA:
+        - 22mm rifle grenades:
+            - Added 1x FOW 1Rnd
+        - 30mm rifle grenades
+            - Added 1x FOW 1Rnd
+        - 60mm Bazooka
+            - Added 1x FOW 1Rnd
+
 # Changelog for Weapons balance 20.11.2021
 
 1.1.0.0

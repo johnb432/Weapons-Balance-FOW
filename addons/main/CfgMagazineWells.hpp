@@ -13,6 +13,18 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_22mm_GL_M1 {
+        WB_Magazines[] += {
+            "fow_1Rnd_m9a1"
+        };
+    };
+
+    class CBA_30mm_GL_Type99 {
+        WB_Magazines[] += {
+            "fow_1Rnd_type2_40"
+        };
+    };
+
     class CBA_3006_Spring {
         WB_Magazines[] += {
             "fow_5Rnd_762x63"
@@ -154,6 +166,12 @@ class CfgMagazineWells {
     class CBA_9x19_STEN {
         WB_Magazines[] += {
             "fow_32Rnd_9x19_sten"
+        };
+    };
+
+    class CBA_Bazooka {
+        WB_Magazines[] += {
+            "fow_1Rnd_m6a1"
         };
     };
 

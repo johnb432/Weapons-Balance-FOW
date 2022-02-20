@@ -57,13 +57,13 @@ class fow_w_m1903A1: fow_rifleBolt_base {
     };
 };
 class fow_w_m1903A1_sniper: fow_w_m1903A1 {
-    displayName = "M1903A1 Springfield (Sniper)";
+    displayName = "M1903A1 Springfield (Optic)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 93;
     };
 };
 
-//fix bolting?
+// TODO: fix bolting?
 class fow_w_type99: fow_rifle_base {
     ACE_barrelLength = 657;
     ACE_barrelTwist = 254;
@@ -73,9 +73,12 @@ class fow_w_type99: fow_rifle_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 83.6;
     };
+    class fow_w_type2_gl: UGL_F{
+        magazineWell[] = {"CBA_30mm_GL_Type99"};
+    };
 };
 class fow_w_type99_sniper: fow_w_type99 {
-    displayName = "Type 99 Arisaka (Sniper)";
+    displayName = "Type 99 Arisaka (Optic)";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 88.6;
     };

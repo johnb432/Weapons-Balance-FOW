@@ -29,6 +29,9 @@ class fow_w_m1_garand: fow_rifle_base {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 94.8;
     };
+    class fow_w_m7_gl: UGL_F {
+        magazineWell[] = {"CBA_22mm_GL_M1"};
+    };
 };
 class fow_w_m1_garand_l: fow_w_m1_garand {
     displayName = "M1 Garand (Light Wood)";
@@ -72,5 +75,16 @@ class fow_w_piat: fow_rifle_base {
     magazineWell[] += {"CBA_PIAT"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 320;
+    };
+};
+
+class Launcher;
+class Launcher_Base_F: Launcher {
+    class WeaponSlotsInfo;
+};
+class fow_w_m1a1_bazooka: Launcher_Base_F {
+    magazineWell[] += {"CBA_Bazooka"};
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 127.5;
     };
 };
