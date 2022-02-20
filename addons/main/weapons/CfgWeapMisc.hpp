@@ -83,6 +83,7 @@ class Launcher_Base_F: Launcher {
     class WeaponSlotsInfo;
 };
 class fow_w_m1a1_bazooka: Launcher_Base_F {
+    ace_reloadlaunchers_enabled = 1;
     magazineWell[] += {"CBA_Bazooka"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 127.5;
