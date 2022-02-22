@@ -12,6 +12,7 @@ class CfgPatches {
             "fow_weapons_c"
         };
         author = "johnb43";
+        authors[] = {"johnb43"};
         url = "https://github.com/johnb432/Weapons-Balance-FOW";
         VERSION_CONFIG;
     };
