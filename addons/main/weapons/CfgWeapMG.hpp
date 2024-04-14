@@ -2,7 +2,8 @@
 class fow_w_bren: fow_rifle_base {
     ACE_barrelLength = 635;
     ACE_barrelTwist = 254;
-    ACE_Overheating_allowSwapBarrel = 1;
+    ace_overheating_allowSwapBarrel = 1;
+    ace_overheating_closedBolt = 0;
     displayName = "Bren Mk.II";
     magazineReloadTime = 0;
     magazineWell[] += {"CBA_303B_BREN"};
@@ -16,7 +17,7 @@ class fow_w_fg42: fow_rifle_base {
     ACE_barrelTwist = 240;
     displayName = "FG 42";
     magazineWell[] += {"CBA_792x57_FG42"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {
+    class WeaponSlotsInfo {
         mass = 93;
     };
 };
@@ -24,6 +25,7 @@ class fow_w_fg42: fow_rifle_base {
 class fow_w_m1918a2: fow_rifle_base {
     ACE_barrelLength = 610;
     ACE_barrelTwist = 254;
+    ace_overheating_closedBolt = 0;
     displayName = "M1918A2 BAR";
     magazineWell[] += {"CBA_3006_BAR"};
 };
@@ -34,7 +36,7 @@ class fow_w_m1918a2_bak: fow_w_m1918a2 {
 class fow_w_m1919: fow_rifle_base {
     ACE_barrelLength = 610;
     ACE_barrelTwist = 254;
-    ACE_Overheating_allowSwapBarrel = 1;
+    ace_overheating_allowSwapBarrel = 1;
     displayName = "M1919A4";
     magazineWell[] += {"CBA_3006_Belt"};
     class WeaponSlotsInfo: WeaponSlotsInfo {};
@@ -55,7 +57,8 @@ class fow_w_m1919a6: fow_w_m1919 {
 class fow_w_mg34: fow_rifle_base {
     ACE_barrelLength = 627;
     ACE_barrelTwist = 240;
-    ACE_Overheating_allowSwapBarrel = 1;
+    ace_overheating_allowSwapBarrel = 1;
+    ace_overheating_closedBolt = 0;
     displayName = "MG 34";
     magazineReloadTime = 0;
     magazineWell[] += {"CBA_792x57_LINKS"};
@@ -67,7 +70,8 @@ class fow_w_mg34: fow_rifle_base {
 class fow_w_mg42: fow_rifle_base {
     ACE_barrelLength = 530;
     ACE_barrelTwist = 240;
-    ACE_Overheating_allowSwapBarrel = 1;
+    ace_overheating_allowSwapBarrel = 1;
+    ace_overheating_closedBolt = 0;
     displayName = "MG 42";
     magazineReloadTime = 0;
     magazineWell[] += {"CBA_792x57_LINKS"};
@@ -79,7 +83,8 @@ class fow_w_mg42: fow_rifle_base {
 class fow_w_type99_lmg: fow_rifle_base {
     ACE_barrelLength = 550;
     ACE_barrelTwist = 254;
-    ACE_Overheating_allowSwapBarrel = 1;
+    ace_overheating_allowSwapBarrel = 1;
+    ace_overheating_closedBolt = 0;
     displayName = "Type 99 LMG";
     magazineReloadTime = 0;
     magazineWell[] += {"CBA_77x58_Type99"};

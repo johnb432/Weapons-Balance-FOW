@@ -18,23 +18,15 @@ class fow_w_k98_scoped: fow_w_k98 {
     };
 };
 
-class fow_w_leeenfield_no4mk1: fow_rifle_base {
+class fow_w_leeenfield_no4mk1: fow_rifleBolt_base {
     ACE_barrelLength = 640;
     ACE_barrelTwist = 254;
     displayName = "Lee-Enfield No.4 Mk.I";
     magazineReloadTime = 0;
     magazineWell[] += {"CBA_303B_LeeEn"};
-    //reloadAction = "fow_gesture_k98_reload";
-    //reloadMagazineSound[] = {"A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_04_ASP1_Kir\DMR_04_reload",0.251189,1,10};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 92.4;
     };
-    /*
-    class fow_BoltAction {
-        param[] = {"fow_gesture_k98_bolt",0.75,"FxCartridge_762",0.6,0.065,-0.18,0.1};
-        sounds[] = {"fow_sound_boltAction_1","fow_sound_boltAction_2","fow_sound_boltAction_3"};
-    };
-    */
 };
 class fow_w_leeenfield_no4mk1_redwood: fow_w_leeenfield_no4mk1 {
     displayName = "Lee-Enfield No.4 Mk.I (Red Wood)";
@@ -63,8 +55,7 @@ class fow_w_m1903A1_sniper: fow_w_m1903A1 {
     };
 };
 
-// TODO: fix bolting?
-class fow_w_type99: fow_rifle_base {
+class fow_w_type99: fow_rifleBolt_base {
     ACE_barrelLength = 657;
     ACE_barrelTwist = 254;
     displayName = "Type 99 Arisaka";

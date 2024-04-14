@@ -1,3 +1,9 @@
+# Changelog for Weapons balance 14.4.2024
+
+1.1.1.0
+- Added latest HEMTT support.
+- Added open bolt attributes to weapons that fire from open bolts.
+
 # Changelog for Weapons balance 22.2.2022
 
 1.1.0.2
