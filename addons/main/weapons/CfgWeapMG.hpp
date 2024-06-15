@@ -1,4 +1,4 @@
-//https://old.weaponsystems.net/weaponsystem/AA06%20-%20Bren.html
+// https://old.weaponsystems.net/weaponsystem/AA06%20-%20Bren.html
 class fow_w_bren: fow_rifle_base {
     ACE_barrelLength = 635;
     ACE_barrelTwist = 254;
@@ -39,7 +39,7 @@ class fow_w_m1919: fow_rifle_base {
     ace_overheating_allowSwapBarrel = 1;
     displayName = "M1919A4";
     magazineWell[] += {"CBA_3006_Belt"};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class fow_w_m1919a4: fow_w_m1919 {
     displayName = "M1919A4";

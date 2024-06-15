@@ -1,5 +1,5 @@
 class fow_rifleBolt_base: fow_rifle_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class fow_w_k98: fow_rifleBolt_base {
     ACE_barrelLength = 600;

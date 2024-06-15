@@ -51,7 +51,7 @@ class fow_w_stg44: fow_rifle_base {
 };
 
 class fow_shotgun_base: fow_rifle_base {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class fow_w_ithaca37: fow_shotgun_base {
     discreteDistance[] = {50};
